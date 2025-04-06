@@ -53,6 +53,10 @@ npm install
 ```
 
 3. `.env` 파일 설정:
+```bash
+cp .env.example .env
+```
+그 다음 `.env` 파일을 편집하여 API 키와 포트를 설정합니다:
 ```
 ANTHROPIC_API_KEY=your_api_key_here
 PORT=5001
@@ -90,4 +94,4 @@ npm start
 각 폴더에는 자세한 설명이 포함된 README 파일이 있습니다:
 
 - [클라이언트 문서](./client/README.md)
-- [서버 문서](./server/README.md) 
+- [서버 문서](./server/README.md)
